@@ -11,7 +11,7 @@ make
 ./multi-server [WEBROOT DIRECTORY] [PORT NUMBER]
 ```
 
-[WEBROOT DIRECTORY] is the directory that you wish the server users to have access to. For example, if the [WEBROOT DIRECTORY] is `linux-web-server`, then server users can load `multi-server.c` file.
+`[WEBROOT DIRECTORY]` is the directory that you wish the server users to have access to. For example, if the `[WEBROOT DIRECTORY]` is `linux-web-server`, then server users can load `multi-server.c` file.
 
 To connect to the server, you can type `[SERVER IP ADDRESS]:[PORT NUMBER]/[FILE RELATIVE PATH]` on your browser.
 To obtain the statistics of requests so far on the server, user the url `[SERVER IP ADDRESS]:[PORT NUMBER]/statistics`.
