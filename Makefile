@@ -2,7 +2,7 @@ CC = gcc
 CFLAGS = -g -Wall -Werror
 LDFLAGS = -g -pthread
 
-TARGETS = multi-server
+TARGETS = multi-threaded-server
 OBJS = multi-server.o
 
 $(TARGETS):
